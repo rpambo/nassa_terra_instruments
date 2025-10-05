@@ -11,7 +11,7 @@ def create_temperature_gauge_horizontal(temp_value):
         mode = "gauge+number",
         value = temp_value,
         domain = {'x': [0, 1], 'y': [0, 1]},
-        title = {'text': "🌡️ Temperature (°C)", 'font': {'size': 12, 'color': 'white'}},
+        title = {'text': "🌡️ Temperature (°C)", 'font': {'size': 10, 'color': 'white'}},
         gauge = {
             'axis': {'range': [-20, 50], 'tickwidth': 1, 'tickcolor': "white", 'tickfont': {'color': 'white', 'size': 8}},
             'bar': {'color': "#e67e22"},
@@ -54,7 +54,7 @@ def create_precipitation_bar_horizontal(precip_value):
     ))
     
     fig.update_layout(
-        title={'text': "🌧️ Precipitation (mm)", 'font': {'size': 12, 'color': 'white'}, 'x': 0.5},
+        title={'text': "🌧️ Precipitation (mm)", 'font': {'size': 10, 'color': 'white'}, 'x': 0.5},
         xaxis={
             'range': [0, 300],
             'showgrid': True,
@@ -83,7 +83,7 @@ def create_co_gauge_horizontal(co_value):
         mode = "gauge+number",
         value = co_value,
         domain = {'x': [0, 1], 'y': [0, 1]},
-        title = {'text': "🌫️ CO (μg/m³)", 'font': {'size': 12, 'color': 'white'}},
+        title = {'text': "🌫️ CO (μg/m³)", 'font': {'size': 10, 'color': 'white'}},
         gauge = {
             'axis': {'range': [0, 200], 'tickwidth': 1, 'tickcolor': "white", 'tickfont': {'color': 'white', 'size': 8}},
             'bar': {'color': "#e67e22"},
