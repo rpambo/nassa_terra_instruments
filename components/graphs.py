@@ -83,7 +83,7 @@ def create_co_gauge_horizontal(co_value):
         mode = "gauge+number",
         value = co_value,
         domain = {'x': [0, 1], 'y': [0, 1]},
-        title = {'text': "🌫️ CO (μg/m³)", 'font': {'size': 10, 'color': 'white'}},
+        title = {'text': "🌫️ CO (μg/m³)", 'font': {'size': 9, 'color': 'white'}},
         gauge = {
             'axis': {'range': [0, 200], 'tickwidth': 1, 'tickcolor': "white", 'tickfont': {'color': 'white', 'size': 8}},
             'bar': {'color': "#e67e22"},
@@ -198,7 +198,7 @@ def create_comparison_chart(region_name, historical_data):
         'title': {
             'text': f'📈 Data Evolution - {region_name} (2016-2024)',
             'font': {'size': 14, 'color': 'white', 'family': 'Arial'},
-            'x': 0.5
+            'x': 0.2
         },
         'xaxis': dict(
             title='Year',
