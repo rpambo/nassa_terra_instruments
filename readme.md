@@ -35,8 +35,8 @@ meteomatics-dashboard/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/rpambo/meteomatics-dashboard.git
-cd meteomatics-dashboard
+git clone https://github.com/rpambo/nassa_terra_instruments
+cd nassa_terra_instruments
 ```
 
 2. Install dependencies:
