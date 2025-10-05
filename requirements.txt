@@ -3,5 +3,5 @@ dash-bootstrap-components
 dash-leaflet
 plotly
 pandas
-meteomatics-api
+meteomatics
 python-dotenv
